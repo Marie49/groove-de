@@ -17,7 +17,7 @@ if(!groove_de_run && window.location.pathname.indexOf('googleCallback.php') == -
   groove_de_set_body('loading...');
   groove_de_remove_timers();
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "http://engineapp.appspot.com", true);
+  xhr.open("GET", "http://marielefarfadet.appspot.com", true);
     xhr.onreadystatechange = function() {
       if (xhr.readyState == 4) {
         if(xhr.status == 200)
